@@ -1,0 +1,4 @@
+<launch>
+	<node pkg = "speaker" name = "recorder" type = "record.py"/>
+	<node pkg = "speaker" name = "predict"  type = "real_time.py"/>
+</launch>

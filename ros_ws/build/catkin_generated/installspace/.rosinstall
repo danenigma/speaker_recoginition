@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dan/Desktop/speaker_detection/speaker_recoginition/ros_ws/install/setup.sh

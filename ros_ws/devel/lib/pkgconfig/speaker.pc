@@ -1,0 +1,8 @@
+prefix=/home/dan/Desktop/speaker_detection/speaker_recoginition/ros_ws/devel
+
+Name: speaker
+Description: Description of speaker
+Version: 0.0.0
+Cflags: -I/home/dan/Desktop/speaker_detection/speaker_recoginition/ros_ws/devel/include
+Libs: -L/home/dan/Desktop/speaker_detection/speaker_recoginition/ros_ws/devel/lib 
+Requires: 
