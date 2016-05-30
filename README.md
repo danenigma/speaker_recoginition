@@ -12,6 +12,12 @@ project adapted from [Speaker Recognition](https://github.com/ppwwyyxx/speaker-r
 + (Optional)[bob](http://idiap.github.io/bob/).
 
 ## Installation / Compilation
+Run
+ `cd my_speaker` 
+ `make -C gmm/` to compile the fast gmm implementation. Require gcc >= 4.7.
+
+It will be used as default, if successfully compiled.
+
 
 You should understand that real-time speaker recognition is extremely hard, because we only use corpus of about 1 second length to identify the speaker.
 Therefore the real-time system doesn't work very perfect.
