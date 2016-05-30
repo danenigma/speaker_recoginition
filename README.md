@@ -51,11 +51,8 @@ _Model_:
 + Continuous [Restricted Boltzman Machine](https://en.wikipedia.org/wiki/Restricted_Boltzmann_machine) (CRBM)
 + [Joint Factor Analysis](http://speech.fit.vutbr.cz/software/joint-factor-analysis-matlab-demo) (JFA)
 
-![graph](https://github.com/ppwwyyxx/speaker-recognition/raw/master/doc/Final-Report-Complete/img/gui-graph.png)
-
 You should understand that real-time speaker recognition is extremely hard, because we only use corpus of about 1 second length to identify the speaker.
 Therefore the real-time system doesn't work very perfect.
-You
 ## Command Line Tools
 ```sh
 usage: speaker-recognition.py [-h] -t TASK -i INPUT -m MODEL
